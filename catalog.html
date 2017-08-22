@@ -5,11 +5,10 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-      <body>
-    <header class="main-header">
+   <header class="main-header">
       <nav class="main-navigation">
-        <a href="index.html" class="main-header-logo">
-          <img src="img/logo.jpg" width="100" height="50" alt="Седона">
+        <a href="index.html" class="main-header-logo"></a>
+          <img src="img/logo.png" width="100" height="50" alt="Седона">
     <ul class="site-navigation">
       <li><a href="info.html">Информация</a></li>
       <li><a href="galery.html">Фото и видео</a></li>
@@ -17,9 +16,19 @@
       <li><a>Гостиницы</a></li>
     </ul>
   </nav>
-        <img src="img/filter.jpg" width="1200" height="562" alt="Фильтр">
 </header>
-<div class="filters"></div>
+<h2 class="filter">Инфраструктура:</p>
+  <input type="checkbox" id="infrastructure" name="pool" value="pool">
+<label for="infrastructure">Бассейн</label>
+<h2 class="filter">Тип жилья:</p>
+    <input type="checkbox" id="hotel" name="hotel" value="hotel">
+    <label for="housing">Гостиница</label>
+    <input type="checkbox" id="motel" name="motel" value="motel">
+    <label for="housing">Мотель</label>
+    <input type="checkbox" id="apartments" name="apartments" value="apartments">
+    <label for="housing">Апартаменты</label>
+     <label for="title-price">Стоимость в сутки (Р):</label>
+  <input type="range" id="price" name="radio" value="от 0 до 5000" min="0" max="5000">
 <h2> Найдено: 3</h2>
 <ul class="sort">
   <li><a href="price.html">по цене</a></li>
@@ -40,8 +49,8 @@
     <p class="rating-stars">Рейтинг: 8,5</p>
     <p>Гостиница</p>
     <p>от 3500 р.</p>
-    <button class="button" type="submit">Подробнее</button>
-    <button class="button" type="submit">Отправить</button>
+    <a class="more detailed" href="amara-more-detailed.html">Подробнее</a>
+    <a class="send" href="amara-send.html">Отправить</a>
   </article>
   <article>
     <h3><a href="#">Desert Quail Inn</a></h3>
@@ -53,8 +62,8 @@
       <p class="rating-stars">Рейтинг: 8,9</p>
     <p>Мотель</p>
     <p>от 2000 р.</p>
-    <button class="button" type="submit">Подробнее</button>
-    <button class="button" type="submit">Отправить</button>
+    <a class="more detailed" href="desert-more-detailed.html">Подробнее</a>
+    <a class="send" href="desert-send.html">Отправить</a>
   </article>
   <article>
     <h3><a href="#">Villas At Poco Diablo</a></h3>
@@ -67,8 +76,8 @@
       <p class="rating-stars">Рейтинг: 9,2</p>
     <p>Апартаменты</p>
     <p>от 4000 р.</p>
-    <button class="button" type="submit">Подробнее</button>
-    <button class="button" type="submit">Отправить</button>
+    <a class="more detailed" href="villas-more-detailed.html">Подробнее</a>
+    <a class="send" href="desert-send.html">Отправить</a>
   </article>
   </section>
   </div>
@@ -76,16 +85,17 @@
   <b>#VISITSEDONA</b>
     <div class="footer-social">
       <ul>
-      <li><a class="social-button" href="#">Twitter</a></li>
-      <li><a class="social-button" href="#">Facebook</a></li>
-      <li><a class="social-button" href="#">YouTube</a></li>
+        <li><a class="social-button" href="https://twitter.com/" aria-label="Twitter"></a></li>
+        <li><a class="social-button" href="https://facebook.com/" aria-label="Facebook"></a></li>
+        <li><a class="social-button" href="https://www.youtube.com/" aria-label="YouTube"></a></li>
+      </ul>
     </ul>
   </div>
   <p class="footer-copyright">
     <b>Website by</b>
-    <a class="button" href="#">A</a>
+    <a class="button" href="#"aria-label="A">A</a>
     <b>for</b>
-    <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+    <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy"></a>
   </p>
   </footer>
   </body>
