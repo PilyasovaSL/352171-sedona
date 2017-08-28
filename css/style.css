@@ -112,6 +112,12 @@ h2{
     line-height: 86px;
     color: #ffffff;
     text-align: center;
+}
+
+.sort-title{
+  background-color: #ffffff;
+  color: #000000;
+}
   
 .results-wrapper{
 font-size: 14px;
