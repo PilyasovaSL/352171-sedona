@@ -62,7 +62,8 @@ list-style: none;
 }
 
 .site-navigation a:hover,
-.site-navigation a:focus{
+.site-navigation a:focus,
+.site-navigation a:active{
   background-color: #b8eaf1;
 }
 
@@ -107,11 +108,27 @@ div.search-hotels{
 }
 h2{
   height: 86px;
-    background: #766357;
+    background-color: #766357;
     line-height: 86px;
     color: #ffffff;
     text-align: center;
+  
+.results-wrapper{
+font-size: 14px;
+line-height: 21px;
+background-color: #ffffff;
+text-transform: uppercase;
 }
+.results-wrapper:hover,
+.results-wrapper:focus,
+.results-wrapper:active{
+  background-color: #ffffff;
+}
+  
+.button.btn-search{
+ text-transform: uppercase;
+  background-color: #81b3d2;
+  color: #ffffff;
 
 .main-footer{
 color: #000000;
