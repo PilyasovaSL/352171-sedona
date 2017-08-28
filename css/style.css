@@ -27,6 +27,10 @@ a{
   text-decoration: none;
 }
 
+.link black{
+  color: black;
+}
+
 .button{
   font: inherit;
   text-align: center;
@@ -61,6 +65,10 @@ list-style: none;
 .site-navigation a:hover,
 .site-navigation a:focus{
   back-ground-color: #b8eaf1;
+}
+
+.label{
+  font-size: 14px;
 }
 
 .features-list{
