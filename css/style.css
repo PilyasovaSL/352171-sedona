@@ -102,11 +102,11 @@ list-style: none;
   height: 26px;
 }
 
-div.search-hotels{
+div.search-hotels-btn{
   text-transform: uppercase;
   color: #000000;
 }
-h2{
+.search-hotels-btn h2{
   height: 86px;
     background-color: #766357;
     line-height: 86px;
