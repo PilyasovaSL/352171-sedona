@@ -59,12 +59,17 @@ list-style: none;
 
 .site-navigation a{
   color: #000000;
+  font-width: bold;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus,
+.site-navigation a:hover{
+  color: #81b3d2;
+}
+.site-navigation a:focus{
+  color: #f0f0f0;
+}
 .site-navigation a:active{
- color: #000000;
+  color: #766357;
 }
 
 .label{
@@ -95,6 +100,18 @@ list-style: none;
 .trip input:focus{
   border-color: #fbfbfb;
   outline: none;
+}
+
+.btn-search:hover{
+  color: #669ec0;
+}
+
+.btn-search:focus{
+  color: #81b3d2;
+}
+
+.btn-search:active{
+  color: #5496bd;
 }
 
 .map{
@@ -133,8 +150,13 @@ text-transform: uppercase;
   
 .button.btn-search{
  text-transform: uppercase;
-  background-color: #81b3d2;
+  background-color: #766357;
   color: #ffffff;
+  
+ .button.btn-search:hover,
+ .button.btn-search:focus,
+  .button.btn-search:active{
+  }
 
 .main-footer{
 color: #000000;
