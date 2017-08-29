@@ -64,7 +64,7 @@ list-style: none;
 .site-navigation a:hover,
 .site-navigation a:focus,
 .site-navigation a:active{
-  background-color: #b8eaf1;
+ color: #000000;
 }
 
 .label{
