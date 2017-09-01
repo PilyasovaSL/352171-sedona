@@ -71,9 +71,10 @@ list-style: none;
   color: #766357;
 }
 
-.background-image{
-  font-width: bold;
+div.background-image{
+  font-weight: bold;
   color: #ffffff;
+  backgroun-image: url("../img/filter.jpg");
 }
 
 .label{
@@ -123,14 +124,15 @@ list-style: none;
   height: 26px;
 }
 
-div.search-hotels-btn{
+div.search-hotels{
   text-transform: uppercase;
   color: #000000;
 }
 .search-hotels-btn h2{
-  height: 86px;
+  font-size: 21px
+  font-weight: bold;
     background-color: #766357;
-    line-height: 86px;
+    line-height: 26px;
     color: #ffffff;
     text-align: center;
 }
@@ -233,4 +235,147 @@ color: #000000;
 .footer-copyright .button:focus{
   color: #ffffff;
   background-color: #000000;
+}
+
+
+/*--------- Сеточные стили ----------*/
+     html,
+     body{
+min-width: 1277px;
+min-height: 2762px;
+}
+
+body{
+background-image: url("../img/background photo.jpg");
+background-size:
+background-repeat=no-repeat;
+}
+
+.container{
+width: 1130px;
+margin: 0 auto;
+padding: 0 10px;
+}
+
+.main-header{
+     min-height: 255px;
+     }
+
+.main-navigation{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+/* Временно для сетки*/
+min-height:255px;
+background-color: transparent;
+}
+
+.main-header-logo{
+order: 0;
+width: 230px;
+height: 75px;
+
+
+/* Временно для сетки*/
+/*display: block;*/
+
+.main-navigation-wrapper{
+width: 100%;
+margin: 0;
+background-color: #ffffff;
+
+/*Временно для сетки*/
+min-height: 60px;
+}
+
+.main-navigation-wrapper .container{
+display: flex;
+justify-content: space-between;
+}
+
+.site-navigation{
+width: 1130px
+margin: 0;
+padding: 0;
+list-style: none;
+
+/* Временно для сетки*/
+min-height: 60px;
+}
+
+.real-town{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 45px 60px;
+  list-style: none;
+
+/*Временно для сетки*/
+  min-height: 260px;
+}
+.devil's bridge{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 45px 60px;
+  list-style: none;
+
+/*Временно для сетки*/
+  min-height: 260px;
+}
+
+.features{
+display: flex;
+justify-content: space-between;
+margin-bottom: 85px;
+padding: 0;
+list-style: none;
+
+/*Временно для сетки*/
+min-height: 260px;
+}
+
+.feature-item{
+width: 310px;
+
+/*Временно для сетки*/
+min-height: 205px;
+}
+
+.search-hotels{
+width: 575px;
+margin-bottom: 55px;
+
+  /*Временно для сетки*/
+  min-height: 35px;
+}
+
+.main-footer{
+  padding: 45px 0;
+  margin-top: 70px;
+
+  /*Временно для сетки*/
+  background: none;
+  min-height: 35px;
+}
+
+.main-footer .container{
+  display: flex;
+}
+
+.footer-social{
+  width: 190px;
+  margin-right: 230px
+    /*Временно для сетки*/
+    min-height: 85px;
+}
+
+.footer-copyright{
+  margin-left: auto;
+  width: 230px;
+  margin: 0;
+
+  /*Временно для сетки*/
+  min-height: 35px;
 }
