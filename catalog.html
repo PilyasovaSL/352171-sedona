@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/normalize.css" rel="style">
+    <link href="css/normalize.css" rel="stylesheet">
      <link href="css/style.css" rel="stylesheet">
   </head>
+  <body>
   <header class="main-header">
       <nav class="main-navigation">
         <a href="index.html" class="main-header-logo"></a>
           <img src="img/logo.png" width="100" height="50" alt="Седона">
     <ul class="site-navigation">
-      <a class="link-black"></a>
       <li><a href="info.html">Информация</a></li>
       <li><a href="galery.html">Фото и видео</a></li>
       <li><a href="map.html">Карта штата</a></li>
@@ -20,8 +20,8 @@
     </ul>
   </nav>
 </header>
-  <div class="background-image" style="/" background-image: url("img/filter.jpg");>
-  <img src="img/filter.jpg" width="1200" height="562" alt"filter background">
+  <div class="background-image">
+  <img src="img/filter.jpg" width="1200" height="562" alt="filter background">
 <h2 class="filter">Инфраструктура:</h2>
   <input type="checkbox" id="pool" name="pool">
 <label for="pool">Бассейн</label>
@@ -37,7 +37,7 @@
     <input type="checkbox" id="apartments" name="apartments">
     <label for="apartments">Апартаменты</label>
      <label for="title-price">Стоимость в сутки (Р):</label>
-  <input type="range" id="price" name="radio" value="от 0 до 5000" min="0" max="5000">
+  <input type="number" id="price" name="radio" min="0" max="5000">
   </div>
 <h2> Найдено: 3</h2>
   <a href="#" class="sort-title">Сортировка:</a>
@@ -47,7 +47,6 @@
   <li><a href="rating.html">по рейтингу</a></li>
   </ul>
 <section class="results">
-  <div class="results-wrapper">
     <article>
     <h3><a href="#">Amara Resort&Spa</a></h3>
     <img src="img/amara.jpg" width="135" height="90" alt="Amara Resort&Spa">
@@ -90,7 +89,6 @@
     <a class="send" href="desert-send.html">Отправить</a>
   </article>
   </section>
-  </div>
   <footer class="main-footer">
   <b>#VISITSEDONA</b>
     <div class="footer-social">
@@ -98,7 +96,6 @@
         <li><a class="social-button" href="https://twitter.com/" aria-label="Twitter"></a></li>
         <li><a class="social-button" href="https://facebook.com/" aria-label="Facebook"></a></li>
         <li><a class="social-button" href="https://www.youtube.com/" aria-label="YouTube"></a></li>
-      </ul>
     </ul>
   </div>
   <p class="footer-copyright">
