@@ -130,7 +130,7 @@ div.search-hotels{
 }
 .search-hotels-btn h2{
   font-size: 21px
-  font-weight: bold;
+   font-weight: bold;
     background-color: #766357;
     line-height: 26px;
     color: #ffffff;
@@ -378,4 +378,25 @@ margin-bottom: 55px;
 
   /*Временно для сетки*/
   min-height: 35px;
+
+  /*Каталог*/
+
+ .filter{
+width: 1200px;
+margin: 73px;
+min-height: 30px;
 }
+
+.filter .container{
+    display: flex;
+}
+
+.results{
+  display: flex;
+}
+
+.results-wrapper{
+  width: 1070px;
+  min-height: 30px;
+  margin: 73px;
+} 
