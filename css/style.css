@@ -88,10 +88,15 @@ div.background-image{
 
 .features-list{
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .features-item{
+  width: 1200px;
   text-align: center;
+  outline: 1px solid blue;
+  
 }
 
 .features-item h3{
@@ -189,12 +194,12 @@ color: #000000;
   }
 */
 
-  .more-detailed:hover{
+.more-detailed:hover{
     background-color: #81b3d2;
     color: #ffffff;
   }
 
-  .more-detailed:focus{
+.more-detailed:focus{
 background-color: #669ec0;
 color: #ffffff;
 }
@@ -252,6 +257,7 @@ color: #000000;
 width: 1200px;
 height: 2590px;
 margin: 0 auto;
+outline: 1px solid red;
 }
 
 .main-header{
@@ -312,7 +318,6 @@ min-height: 60px;
 }
 
 .features{
-display: flex;
 justify-content: space-between;
 margin-bottom: 85px;
 padding: 0;
@@ -320,6 +325,10 @@ list-style: none;
 min-height: 260px;
 }
 
+.features-list{
+display: flex;
+  
+  
 .feature-item{
 width: 310px;
 min-height: 205px;
@@ -332,6 +341,7 @@ margin-bottom: 55px;
 }
 
 .main-footer{
+  display: flex;
   padding: 45px 0;
   margin-top: 70px;
   background: none;
@@ -356,6 +366,12 @@ margin-bottom: 55px;
 }
 
   /*Каталог*/
+  
+ .background-image{
+   outline: 1px solid yellowgreen;
+   margin-left: auto;
+   display: flex;
+   flex-direction: column;
 
 .filter .container{
     display: flex;
