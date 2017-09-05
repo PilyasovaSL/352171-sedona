@@ -27,6 +27,7 @@ font-weight: bold;
  height: 1px; 
  width: 1px; 
  overflow: hidden;
+}
 
 a{
   text-decoration: none;
@@ -62,7 +63,7 @@ list-style: none;
 
 .site-navigation a{
   color: #000000;
-  font-width: bold;
+  font-weight: bold;
 }
 
 .site-navigation a:hover{
@@ -78,7 +79,7 @@ list-style: none;
 div.background-image{
   font-weight: bold;
   color: #ffffff;
-  backgroun-image: url("../img/filter.jpg");
+  background-image: url("../img/filter.jpg");
 }
 
 .label{
@@ -180,11 +181,13 @@ color: #000000;
  text-transform: uppercase;
   background-color: #000000;;
   color: #ffffff;
-
+}
+/*
  .button.btn-search:hover,
  .button.btn-search:focus,
   .button.btn-search:active{
   }
+*/
 
   .more-detailed:hover{
     background-color: #81b3d2;
@@ -218,7 +221,7 @@ color: #ffffff;
 .main-footer{
 color: #000000;
   background-color: #ffffff;
-  background-pozition: 0 0;
+  background-position: 0 0;
   background-repeat: repeat;
   font-weight: bold;
 }
@@ -247,8 +250,8 @@ color: #000000;
 
 .container{
 width: 1200px;
+height: 2590px;
 margin: 0 auto;
-padding: 0 10px;
 }
 
 .main-header{
@@ -269,6 +272,7 @@ width: 230px;
 height: 75px;
   
 /*display: block;*/
+}
 
 .main-navigation-wrapper{
 width: 100%;
@@ -349,21 +353,12 @@ margin-bottom: 55px;
   width: 230px;
   margin: 0;
   min-height: 35px;
+}
 
   /*Каталог*/
 
- .filter{
-width: 1200px;
-margin: 73px;
-min-height: 30px;
-}
-
 .filter .container{
     display: flex;
-}
-
-.results{
-  display: flex;
 }
 
 .results-wrapper{
