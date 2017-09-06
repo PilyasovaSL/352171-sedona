@@ -400,7 +400,7 @@ margin-bottom: 55px;
   div.sorting{
     display: inline-block;
     box-sizing: border-box;
-    margin: 0;
+    margin-left: auto;
     padding: 0;
     vertical-align: baseline;
     background: transparent;
@@ -425,11 +425,33 @@ margin-bottom: 55px;
     align-items: flex-end;
     width: 240px;
     height: 150px;
+    margin-left: auto;
   }
-    
 
-.results-wrapper{
-  width: 1070px;
-  min-height: 30px;
-  margin: 73px;
-} 
+  .main-footer{
+    display: flex;
+    justify-content: space-between;
+    min-height: 122px;
+  }
+  
+  div.hashtag{
+  width: 240px;
+  height: 55px;
+  vertical-align: middle;
+   line-height: 48px;
+  }
+  
+  .footer-social{
+    width: 290px;
+    height: 75px;
+    vertical-align: baseline;
+    line-heightL 48px;
+  }
+  
+  .footer-copyright{
+    width: 250px;
+    height: 60px;
+    line-height: 48px;
+    padding-right: 3px;
+    vertical-align: baseline;
+  }
