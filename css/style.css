@@ -79,7 +79,7 @@ list-style: none;
 div.background-image{
   font-weight: bold;
   color: #ffffff;
-  background-image: url("../img/filter.jpg");
+display: flex;
 }
 
 .label{
@@ -255,7 +255,6 @@ color: #000000;
 
 .container{
 width: 1200px;
-height: 2590px;
 margin: 0 auto;
 outline: 1px solid red;
 }
@@ -327,6 +326,7 @@ min-height: 260px;
 
 .features-list{
 display: flex;
+}
   
   
 .feature-item{
@@ -355,7 +355,8 @@ margin-bottom: 55px;
 .footer-social{
   width: 190px;
   margin-right: 230px;
-    min-height: 85px;
+   min-height: 85px;
+}
 
 
 .footer-copyright{
@@ -404,7 +405,12 @@ margin-bottom: 55px;
     padding: 0;
     vertical-align: baseline;
     background: transparent;
+    
   }
+
+article.results-hotel{
+  display: flex;
+}
   
   div.amara-hotel{
     display: flex;
@@ -445,7 +451,7 @@ margin-bottom: 55px;
     width: 290px;
     height: 75px;
     vertical-align: baseline;
-    line-heightL 48px;
+    line-height: 48px;
   }
   
   .footer-copyright{
