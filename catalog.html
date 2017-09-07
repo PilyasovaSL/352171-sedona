@@ -23,8 +23,6 @@
 </header>
   <main>
   <div class="background-image">
-  <img src="img/filter.jpg" width="1200" height="562" alt="filter background">
-    </div>
 <div class="infrastructure">
   <p>Инфраструктура:</p>
   <input type="checkbox" id="pool" name="pool">
@@ -47,8 +45,9 @@
        <p>Стоимость в сутки (Р):</p>
   <input type="number" id="price" name="radio" min="0" max="5000">
   </div>
+    </div>
+        <div class="sorting">
 <p> Найдено: 3</p>
-    <div class="sorting">
   <a href="#" class="sort-title">Сортировка:</a>
 <ul class="sort">
   <li><a href="price.html" class="active">по цене</a></li>
@@ -57,12 +56,12 @@
   </ul>
     </div>
 <section class="results">
-    <article>
+    <article class="results-hotel">
       <div class="picture">
-    <h3><a href="#">Amara Resort&Spa</a></h3>
     <img src="img/amara.jpg" width="135" height="90" alt="Amara Resort&Spa">
   </div>
-      <div class="type">                                            
+      <div class="type">
+        <h3><a href="#">Amara Resort&Spa</a></h3>
     <p>Гостиница</p>
     <p>от 3500 р.</p>
       <a class="link-black"></a>
@@ -73,12 +72,12 @@
     <p>Рейтинг: 8,5</p>
       </div>
   </article>
-  <article>
+  <article class="results-hotel">
     <div class="picture">
-    <h3><a href="#">Desert Quail Inn</a></h3>
     <img src="img/desert.jpg" width="135" height="90" alt="Desert Quail Inn">
     </div>
     <div class="type">
+          <h3><a href="#">Desert Quail Inn</a></h3>
     <p>Мотель</p>
     <p>от 2000 р.</p>
     <a class="more detailed" href="desert-more-detailed.html">Подробнее</a>
@@ -88,15 +87,14 @@
       <p class="rating-stars">Рейтинг: 8,9</p>
     </div>
   </article>
-  <article>
+  <article class="results-hotel">
     <div class="picture">
-    <h3><a href="#">Villas At Poco Diablo</a></h3>
     <img src="img/villas.jpg" width="135" height="90" alt="Villas At Poco Diablo">
     </div>
     <div class="type">
+      <h3><a href="#">Villas At Poco Diablo</a></h3>
     <p>Апартаменты</p>
     <p>от 4000 р.</p>
-    <a class="link-black"></a>
     <a class="more detailed" href="villas-more-detailed.html">Подробнее</a>
     <a class="send" href="desert-send.html">Отправить</a>
       </div>
@@ -107,23 +105,20 @@
   </section>
   </main>
   <footer class="main-footer">
-    <div class="hashtag">
-  <b>#VISITSEDONA</b>
-    </div>
-    <div class="footer-social">
-      <ul>
-        <li><a class="social-button" href="https://twitter.com/" aria-label="Twitter"></a></li>
-        <li><a class="social-button" href="https://facebook.com/" aria-label="Facebook"></a></li>
-        <li><a class="social-button" href="https://www.youtube.com/" aria-label="YouTube"></a></li>
-    </ul>
-  </div>
-  <p class="footer-copyright">
-    <div>
-    <b>Website by</b>
-    <a class="button" href="#" aria-label="A">A</a>
-    <b>for</b>
-    <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy"></a>
+        <b>#VISITSEDONA</b>
+          <div class="footer-social">
+            <ul>
+            <li><a class="social-button" href="https://twitter.com/" aria-label="Twitter"></a></li>
+            <li><a class="social-button" href="https://facebook.com/" aria-label="Facebook"></a></li>
+            <li><a class="social-button" href="https://www.youtube.com/" aria-label="YouTube"></a></li>
+          </ul>
+        </div>
+        <p class="footer-copyright">
+          <b>Website by:</b>
+          <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy"></a>
+        </p>
     </div>
   </footer>
+    </div>
   </body>
 </html>
