@@ -77,6 +77,7 @@ list-style: none;
 }
 
 div.background-image{
+  background-image: url("../img/filter.jpg")
   font-weight: bold;
   color: #ffffff;
 display: flex;
